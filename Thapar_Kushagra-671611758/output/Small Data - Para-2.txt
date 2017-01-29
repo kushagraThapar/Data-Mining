@@ -1,0 +1,45 @@
+Frequent 1-Item Sets
+
+		 19 : { 30 }
+		 32 : { 60 }
+
+		Total number of frequent 1-Item Sets = 2 
+
+
+Frequent 2-Item Sets
+
+		 7 : { [10, 30] }
+Tailcount = 19
+		 13 : { [10, 60] }
+Tailcount = 32
+		 14 : { [30, 70] }
+Tailcount = 26
+		 16 : { [60, 20] }
+Tailcount = 19
+		 19 : { [60, 70] }
+Tailcount = 26
+		 32 : { [60, 50] }
+Tailcount = 40
+
+		Total number of frequent 2-Item Sets = 6 
+
+
+Frequent 3-Item Sets
+
+		 5 : { [10, 30, 70] }
+Tailcount = 14
+		 7 : { [10, 60, 20] }
+Tailcount = 16
+		 7 : { [10, 60, 70] }
+Tailcount = 19
+		 19 : { [60, 70, 50] }
+Tailcount = 26
+
+		Total number of frequent 3-Item Sets = 4 
+
+
+Frequent 4-Item Sets
+
+
+		Total number of frequent 4-Item Sets = 0 
+

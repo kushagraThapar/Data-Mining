@@ -1,0 +1,42 @@
+Frequent 1-Sets: 
+
+7 : {10 }
+9 : {80 }
+
+Total number of frequent 1-Itemsets: 2
+
+
+Frequent 2-sets: 
+7 : {10 , 20 }
+Tailcount = 12
+7 : {10 , 30 }
+Tailcount = 7
+7 : {10 , 40 }
+Tailcount = 9
+7 : {10 , 50 }
+Tailcount = 19
+7 : {30 , 20 }
+Tailcount = 12
+12 : {50 , 20 }
+Tailcount = 12
+Total number of frequent 2-itemsets = 6
+
+
+Frequent 3-itemsets: 
+
+7 : {10 , 30 , 20 }
+7 : {10 , 50 , 20 }
+7 : {10 , 30 , 40 } -
+7 : {10 , 30 , 50 }
+7 : {10 , 40 , 50 }
+7 : {30 , 50 , 20 }
+
+Total number of frequent3-itemsets = 6
+
+Frequent 4-itemsets: 
+
+7 : {10 , 30 , 50 , 20 }
+7 : {10 , 30 , 40 , 50 }
+
+Total number of frequent4-itemsets = 2
+

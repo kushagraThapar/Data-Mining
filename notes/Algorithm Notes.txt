@@ -1,0 +1,37 @@
+Create MS structure -> Item Value (Primary Key), MIS value.
+Create Transactions List -> List of List.
+Si variable (SDC) -> Get it from the file.
+
+Start Algorithm () {
+    1. M -> Sort MS structure based on MIS values and secondary Item Value, to maintain ordering throughout the program.
+
+    2. L -> Write Init Pass function.
+        1. Calculate Support Count = Total Occurrence.
+        2. Calculate Support = Support Count / n (number of transactions). Can be done on fly.
+        3. Iterate over sorted MS, and find the first element of which support >= MIS(i).
+        4. Break at this i, insert it in the L List and continue.
+        5. Continue with elements from i+1 of which support >= MIS(i). Insert these into L.
+
+    3. F1 -> Iterate over L list and check individual support for every item. Support >= MIS(of that item).
+            This list is of the form [Support Count : {Item Value}, ...]
+
+    4. Start for loop from (k = 2; until F(k-1) is not empty; k++)
+
+        if(k == 2) {
+            1. Level2-Generation() -> C(2) List
+                Iterate over L, check for almost same thing and support difference constraint.
+        } else {
+            1. MS-Candidate-Generation() -> Use F(k-1) to generate F(k).
+                Ordering for the MIS should maintain.
+                Merge them by checking only the last elements of the both F(i) and F(j).
+                Do the pruning step as well.
+        }
+
+        Do some random shit (for loops) and tail count.
+}
+
+
+
+Confusions: Must-have and Cannot_be_together
+
+
