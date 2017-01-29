@@ -1,0 +1,26 @@
+For Obama : Using SGD optimization on Linear SVM
+
+Accuracy = 54.7%
+
+classification report:
+             precision    recall  f1-score   support
+
+         -1       0.57      0.57      0.57       688
+          0       0.51      0.53      0.52       681
+          1       0.56      0.54      0.55       582
+
+avg / total       0.55      0.55      0.55      1951
+
+
+For Romney : Using Linear SVM Classifier
+
+Accuracy = 55.6%
+
+classification report:
+             precision    recall  f1-score   support
+
+         -1       0.64      0.70      0.67       960
+          0       0.43      0.41      0.42       555
+          1       0.51      0.42      0.46       385
+
+avg / total       0.55      0.56      0.55      1900
